@@ -1,0 +1,66 @@
+h1{
+
+    color:red;
+    margin-left: 30px;
+}
+p,h2{
+    text-align: center;
+}
+/*{
+    border:solid;
+}*/
+.div1{
+ background-color:#8B0000;
+ display:flex;
+ justify-content: space-between;
+
+}
+.jogos{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+
+
+}
+.redes{
+    background-color: #008000;
+    display:flex;
+justify-content: flex-end;
+}
+body{
+    background-color: #191970
+    
+
+}
+.div1{border: 4mm ridge rgb(82, 255, 246);
+
+}
+a:link{
+    color:#00FF00;
+}
+a:visited{
+    color:#00FF00;
+}
+.menu{
+    margin-right: 30px;
+    margin-top: 35px; 
+}
+.menu a{
+    margin-left: 20px;
+}
+.jogo1{
+position:relative;
+}
+.jogo1 p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+opacity: 0;
+}
+.jogo1:hover p {opacity:5;
+}
+.jogo1:hover img{
+    opacity:0.2 ;
+}
